@@ -223,13 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d297090fa2fb54da6ffb221847baff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  integrantesFamilia:
-  - Abuelo
-  - Abuela
-  - "Pap\xE1"
-  - "Mam\xE1"
-  - Hermano
-  - Hermana
+  edadesFamilia: 0100000002000000030000004eb200007d0d000009000000
 --- !u!4 &2110515919
 Transform:
   m_ObjectHideFlags: 0

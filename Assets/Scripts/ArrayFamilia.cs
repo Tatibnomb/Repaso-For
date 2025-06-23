@@ -4,26 +4,32 @@ using UnityEngine;
 
 public class ArrayFamilia : MonoBehaviour
 {
-    public string[] integrantesFamilia;
+    public int[] edadesFamilia;
     // Start is called before the first frame update
     void Start()
     {
         // Escribir el primer elemento del array
-        Debug.Log(integrantesFamilia[0]);
-    
+        Debug.Log(edadesFamilia[0]);
+
         // Escribir la cantidad de elementos del array
-        Debug.Log(integrantesFamilia.Length);
+        Debug.Log(edadesFamilia.Length);
 
         // Escribir todos los elementos del array
-        for (int i = 0; i < integrantesFamilia.Length; i++)
+        for (int i = 0; i < edadesFamilia.Length; i++)
         {
-            Debug.Log(integrantesFamilia[i]);
+            Debug.Log(edadesFamilia[i]);
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Escribir los elementos del array mayores que 20
+        for (int i = 0; i > 20; i++)
+        {
+            Debug.Log(edadesFamilia[i]);
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
